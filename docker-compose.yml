@@ -28,7 +28,7 @@ services:
     container_name: terrarun_backend
     restart: unless-stopped
     environment:
-      DATABASE_URL: postgresql://terrarun:terrarun_secret@db:5432/terrarun
+      DATABASE_URL: postgresql://neondb_owner:npg_2hVzRi9waltF@ep-sweet-boat-ap38qtfg-pooler.c-7.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
     ports:
       - "8000:8000"
     volumes:
